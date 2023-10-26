@@ -70,8 +70,6 @@ section.slider .slider-text a.btn-order-now:hover {
 }
 section.slider .slider-image img {
   height: 400px;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 section.category-product {
@@ -140,6 +138,9 @@ section.latest-product .card a.card-btn:hover {
   background: var(--bs-success);
   color: #fff;
 }
+section.latest-product .card .rating {
+  margin-bottom: 15px;
+}
 
 section.banner2-section {
   margin: 50px 0;
@@ -152,6 +153,10 @@ section.banner2-section h1.promo-title {
   width: 350px;
   color: var(--bs-success);
   font-weight: 650;
+}
+
+footer .frist-child:hover {
+  color: #0d6efd;
 }
 
 @media (max-width: 992px) {
@@ -177,5 +182,23 @@ section.banner2-section h1.promo-title {
   }
   .banner-section .col-lg-6 {
     width: 90% !important;
+  }
+}
+@media (max-width: 576px) {
+  section.slider {
+    padding-top: 0px;
+    height: 80vh;
+  }
+  section.slider .slider-text h2 {
+    font-size: 50px;
+  }
+  section.slider .slider-image img {
+    height: 250px;
+  }
+  section.banner2-section h1.promo-title {
+    font-size: 50px;
+    top: 30%;
+    left: 10%;
+    width: 300px;
   }
 }/*# sourceMappingURL=style.css.map */

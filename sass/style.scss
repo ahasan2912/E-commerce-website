@@ -71,7 +71,6 @@ section.slider{
     }
     .slider-image img{
         height: 400px;
-        object-fit: contain;
     }
 }
 //Category Product
@@ -147,6 +146,9 @@ section.latest-product{
                 color: #fff;
             }
         }
+        .rating{
+            margin-bottom: 15px
+        }
     }
 }
 //Section banner-2
@@ -160,6 +162,13 @@ section.banner2-section{
         width: 350px;
         color: var(--bs-success);
         font-weight: 650;
+    }
+}
+footer{
+    .frist-child{
+        &:hover{
+            color: #0d6efd;
+        }
     }
 }
 @media (max-width: 992px) {
@@ -188,5 +197,20 @@ section.banner2-section{
     }
 }
 @media (max-width: 576px){
-
+    section.slider{
+        padding-top: 0px;
+        height: 80vh;
+    }
+    section.slider .slider-text h2{
+        font-size: 50px;
+    }
+    section.slider .slider-image img{
+        height: 250px;
+    }
+    section.banner2-section h1.promo-title {
+        font-size: 50px;
+        top: 30%;
+        left: 10%;
+        width: 300px;
+    }
 }
