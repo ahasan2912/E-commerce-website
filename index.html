@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shop</title>
+    <link rel="icon" href="asset/images/favicon.png">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/fonts/bootstrap-icons.css">
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="asset/images/ecommerce-logo-png-11.png" alt="" width="140px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 action-menu">
+                        <form class="search-form">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+                        </form>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"><i class="bi bi-heart"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-cart4 position-relative">
+                                <span style="font-size: 10px;" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1</span>
+                            </i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Person</a>
+                            <ul class="dropdown-menu border-0 shadow-lg" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Login</a></li>
+                                <li><a class="dropdown-item" href="#">Registation</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="slider">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="container">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-6 slider-text">
+                                <h2 class="text-success">Order <span class="lighten">Online</span>,<br> Save Your <br><span class="lighten">Time</span></h2>
+                                <p style="width: 90%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, maxime maiores nam aliquam sed mollitia esse quo incidunt nihil. Provident!</p>
+                                <a class="btn-order-now" href="#">ORDER NOW <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                            <div class="col-lg-6 slider-image">
+                                <img src="asset/images/product/f1.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6 slider-text">
+                                <h2 class="text-success">Order <span class="lighten">Online</span>, <br> Save Your <br> <span class="lighten">Time</span></h2>
+                                <p style="width: 90%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, maxime maiores nam aliquam sed mollitia esse quo incidunt nihil. Provident!</p>
+                                <a class="btn-order-now" href="#">ORDER NOW <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                            <div class="col-lg-6 slider-image">
+                                <img src="asset/images/product/f3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="category-product">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Category Product</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center bg-light">
+                        <div class="card-body">
+                            <img src="asset/images/product/product22.png" alt="" height="180" style="object-fit: contain;">
+                            <h4 class="py-3 h3">Carrot</h4>
+                            <a class="btn btn-success rounded-pill px-sm-3" href="#">View All <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center bg-light">
+                        <div class="card-body">
+                            <img src="asset/images/product/f4.png" alt="" height="180" style="object-fit: contain;">
+                            <h4 class="py-3 h3">Strawberry</h4>
+                            <a class="btn btn-success rounded-pill px-sm-3" href="#">View All <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center bg-light">
+                        <div class="card-body">
+                            <img src="asset/images/product/product33.png" alt="" height="180" style="object-fit: contain;">
+                            <h4 class="py-3 h3">Orange</h4>
+                            <a class="btn btn-success rounded-pill px-sm-3" href="#">View All <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center bg-light">
+                        <div class="card-body">
+                            <img src="asset/images/product/product3.png" alt="" height="180" style="object-fit: contain;">
+                            <h4 class="py-3 h3">Apple</h4>
+                            <a class="btn btn-success rounded-pill px-sm-3" href="#">View All <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="item d-flex">
+                        <div class="text">
+                            <p class="text-danger">Fresh Fruits</p>
+                            <h2>Healthy Food</h2>
+                            <p>Get 20% Off Selected Product</p>
+                            <a class="btn btn-success rounded-pill px-sm-3" href="#">Order Now</a>
+                        </div>
+                        <img class="img-fluid" src="asset/images/product/f3.png" alt="" width="200px">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="item d-flex">
+                        <div class="text">
+                            <p class="text-danger">Fresh Fruits</p>
+                            <h2>Healthy Vagetables</h2>
+                            <p>Get 20% Off Selected Product</p>
+                            <a class="btn btn-success rounded-pill px-sm-3" href="#">Order Now</a>
+                        </div>
+                        <img class="img-fluid" src="asset/images/product/f1.png" width="200px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="category-product bg-light latest-product">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2 class="text-start">Latest Products</h2>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center card1">
+                        <div class="card-body">
+                            <img src="asset/images/product/product22.png" alt="" height="180" style="object-fit: contain;">
+                            <h2>
+                                <a class="h6 header-6" href="#">Organic Cauliflower (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn rounded-pill px-sm-3 card-btn" href="#"><i class="bi bi-cart4"></i>ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center bg-light">
+                        <div class="card-body">
+                            <img src="asset/images/product/f4.png" alt="" height="180" style="object-fit: contain;">
+                            <h2>
+                                <a class="h6 header-6" href="#">Organic Cauliflower (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn rounded-pill px-sm-3 card-btn" href="#"><i class="bi bi-cart4"></i>ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center bg-light">
+                        <div class="card-body">
+                            <img src="asset/images/product/product33.png" alt="" height="180" style="object-fit: contain;">
+                            <h2>
+                                <a class="h6 header-6" href="#">Organic Cauliflower (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn rounded-pill px-sm-3 card-btn" href="#"><i class="bi bi-cart4"></i>ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center bg-light">
+                        <div class="card-body">
+                            <img src="asset/images/product/product3.png" alt="" height="180" style="object-fit: contain;">
+                            <h2>
+                                <a class="h6 header-6" href="#">Organic Cauliflower (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn rounded-pill px-sm-3 card-btn" href="#"><i class="bi bi-cart4"></i>ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="category-product bg-light latest-product my-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2 class="text-start">Most Sell Products</h2>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center card1">
+                        <div class="card-body">
+                            <img src="asset/images/product/product1.png" alt="" height="180" style="object-fit: contain;">
+                            <h2>
+                                <a class="h6 header-6" href="#">Organic Rice (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn rounded-pill px-sm-3 card-btn" href="#"><i class="bi bi-cart4"></i>ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center bg-light">
+                        <div class="card-body">
+                            <img src="asset/images/product/product2.png" alt="" height="180" style="object-fit: contain;">
+                            <h2>
+                                <a class="h6 header-6" href="#">Organic Cauliflower (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn rounded-pill px-sm-3 card-btn" href="#"><i class="bi bi-cart4"></i>ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center bg-light">
+                        <div class="card-body">
+                            <img src="asset/images/product/product28.png" alt="" height="180" style="object-fit: contain;">
+                            <h2>
+                                <a class="h6 header-6" href="#">Organic Cauliflower (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn rounded-pill px-sm-3 card-btn" href="#"><i class="bi bi-cart4"></i>ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm text-center bg-light">
+                        <div class="card-body">
+                            <img src="asset/images/product/product26.png" alt="" height="180" style="object-fit: contain;">
+                            <h2>
+                                <a class="h6 header-6" href="#">Organic Cauliflower (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <a class="btn rounded-pill px-sm-3 card-btn" href="#"><i class="bi bi-cart4"></i>ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner2-section position-relative">
+        <div class="container">
+            <img class="w-100" src="asset/images/banner.jpg" alt="">
+            <h1 class="promo-title">Order Online Save Your Time</h1>
+        </div>
+    </section>
+    <footer class="border-top py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="asset/images/ecommerce-logo-png-11.png" alt="" height="40">
+                    <h3>Get the app</h3>
+                    <p style="width: 50%;">NEfresh App is now available on Google Play & App Store. Get it now.</p>
+                    <img src="asset/images/store1.png" alt="">
+                    <img src="asset/images/store2.png" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <h3 class="ms-2">Information</h3>
+                    <ul>
+                        <li>About us</li>
+                        <li>Shipping Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy Policy</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h3 class="ms-2">User Area</h3>
+                    <ul>
+                        <li>My Accoutn</li>
+                        <li>My Cart</li>
+                        <li>Login</li>
+                        <li>Checkout</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Contact Info</h3>
+                    <p>01796905988</p>
+                    <p style="width: 70%;">509 724 580 - issued in New York (NY) on 03/11/2019, expires 08/11/2023</p>
+                    <a href="mailto:support@eshop.com">support@eshop.com</a>
+                </div>
+            </div>
+        </div>        
+    </footer>
+    <script src="asset/js/bootstrap.bundle.js"></script>
+</body>
+</html>
